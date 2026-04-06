@@ -5,6 +5,7 @@ Easy trick to solve this problem
 2. count respective numbers and store in respective variable by traversing through the array
 3. Now go through the array and fill the give array as per the count of each value
 '''
+#Below code is dutch nation flag algorithm
 class Solution:
     def sortColors(self, nums: List[int]) -> None:
         """
