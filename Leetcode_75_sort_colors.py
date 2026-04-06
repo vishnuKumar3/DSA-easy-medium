@@ -1,5 +1,9 @@
 '''
 https://leetcode.com/problems/sort-colors/description/
+Easy trick to solve this problem
+1. Consider three variables ones, twos and threes
+2. count respective numbers and store in respective variable by traversing through the array
+3. Now go through the array and fill the give array as per the count of each value
 '''
 class Solution:
     def sortColors(self, nums: List[int]) -> None:
