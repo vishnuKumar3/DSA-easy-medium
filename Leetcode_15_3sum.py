@@ -27,6 +27,6 @@ class Solution:
         return res
 
 '''
-Time complexity: O(nlogn)
+Time complexity: O(n^2)
 Space complexity: O(1), we are ignoring the space that we are using for storing result
 '''
