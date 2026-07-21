@@ -15,6 +15,7 @@ class Solution:
                     if(s==num):
                         i+=1
                     count+=1
+                    s=0
                 else:
                     i+=1
             if(s!=0):
@@ -34,4 +35,9 @@ class Solution:
             else:
                 s=mid+1
         return res*B
+'''
+Time complexity: O(log(sum(ar)-max(ar))*n)
+Space complexity: O(1)
+'''
+
 
